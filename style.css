@@ -1,0 +1,24 @@
+body{
+margin: 0;
+padding: 0;
+}
+h1{
+font-weight: 700;
+
+}
+
+.col-md-8{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;}
+.contact-form {
+      
+    }
+    .input-wrapper{
+    margin: 10px 0px;
+    }
+    .full-bg{
+    height: 100vh;
+    background-color: grey;
+    }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      rel="stylesheet"
+    />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("JjvYhfdLYj0NS6ISH");
+   })();
+</script>
+    <title>Document</title>
+  </head>
+
+  <body>
+  <div class="full-bg">
+    <div class=" container">
+      <h1 class="text-center  text-warning p-4">Get in Touch</h1>
+     
+        <!-- <div class="successform text-center">
+          <p>Your message was sent successfully!</p>
+        </div> -->
+        <!-- <div class="errorform text-center">
+          <p>Something went wrong, PLEASE DIAL OUR PHONE NUMBER.</p>
+        </div> -->
+        <form id="contact-form"  >
+        <div class="input-wrapper">
+          <input type="text" class="form-control w-50 m-auto" id="fullName" name="from_name" placeholder="Your name*" />
+        </div>
+        <div class="input-wrapper">
+          <input type="email" id="email_id" class="form-control w-50 m-auto" name="email" placeholder="Email*" />
+        </div>
+        <div class="input-wrapper">
+          <input type="text" id="phone " class="form-control w-50 m-auto" name="phone" placeholder="Phone*" />
+        </div>
+        <div class="input-wrapper ">
+          <textarea class="form-control w-50 m-auto " id="message " name="message" placeholder="Message "></textarea>
+        </div>
+        <div class="text-center input-wrapper">
+          <input  type="submit"  value="Send Message" class="btn btn-success fw-bold">
+        </div>
+      </form>
+    </div>
+    </div>
+
+    <!-- script area -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
